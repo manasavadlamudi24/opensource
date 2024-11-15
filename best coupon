@@ -1,0 +1,6 @@
+x=int(input())
+dis_opt1=x*0.10
+dis_opt2=100
+max_discount=max(dis_opt1,dis_opt2)
+fin_am=x-max_discount
+print(int(fin_am))
