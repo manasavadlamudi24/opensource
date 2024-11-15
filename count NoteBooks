@@ -1,0 +1,4 @@
+N=int(input())
+tota_pageees=N*1000
+noteebookss=tota_pageees//100
+print(noteebookss)
