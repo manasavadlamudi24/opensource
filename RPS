@@ -1,0 +1,10 @@
+vign,cha=input().split()
+rock='R'
+paper='P'
+scissors='S'
+if(vign=='R' and cha=='S') or (vign=='P' and cha=='R') or (vign=='S' and cha=='P'):
+    print("Vignesh")
+elif(cha=='R' and vign=='S') or (cha=='P' and vign=='R') or (cha=='S' and ving=='P'):
+    print("Charan")
+else:
+    print("NULL")
