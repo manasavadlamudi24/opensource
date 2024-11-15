@@ -1,0 +1,4 @@
+x,y,z=map(int,input().split())
+rema_capt=z-y
+max_mangoes=rema_capt//x
+print(max_mangoes)
