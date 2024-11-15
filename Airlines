@@ -1,0 +1,8 @@
+import math
+X,N=map(int,input().split())
+remain_passengers=N-(X*100)
+if remain_passengers<=0:
+    print(0)
+else:
+    new_planess=math.ceil(remain_passengers /100)
+    print(new_planess)
