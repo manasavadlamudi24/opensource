@@ -1,0 +1,4 @@
+N=int(input().strip())
+aRr=list(map(int,input().split()))
+reversed_aRr=aRr[::-1]
+print(" ".join(map(str,reversed_aRr)))
