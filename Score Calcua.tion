@@ -1,0 +1,5 @@
+T=int(input().strip())
+for _ in range(T):
+    X,N=map(int,input().split())
+    scoreee=(X//10)*N
+    print(scoreee)
