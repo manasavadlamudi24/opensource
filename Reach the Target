@@ -1,0 +1,5 @@
+T=int(input().strip())
+for _ in range(T):
+    X,Y=map(int,input().split())
+    runss_needed=(X-Y)+1
+    print(runss_needed)
