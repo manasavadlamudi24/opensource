@@ -1,0 +1,11 @@
+S=input().strip()
+vowels_count=0
+consonants_count=0
+vowels="aeiouAEIOU"
+for char in S:
+    if char.isalpha():
+        if char in vowels:
+            vowels_count+=1
+        else:
+            consonants_count+=1
+print(f"{vowels_count},{consonants_count}")
